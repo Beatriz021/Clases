@@ -11,5 +11,13 @@ class Persona:
         self.edad=una_edad
         self.profesion=una_profesion
         print("Hola!. Mi nombre es ",self.nombre,"tengo",self.edad,"soy",self.profesion)
+    def cumpleaños(self):
+        self.edad=self.edad+1
+        print("Tendrás",self.edad)
 
 objeto=Persona("Myrian",17,"Estudiante")
+
+#Agregar un método a la clase persona que se llame Cumpleaños y que aumente la edad de la persona 
+#en un año
+    
+
